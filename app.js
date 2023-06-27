@@ -10,7 +10,7 @@ var User = require("./models/user");
 var PORT = process.env.PORT || 3000;
 
 // mongoose.connect("mongodb://localhost/alumniport",{useNewUrlParser: true});
-mongoose.connect("mongodb+srv://username:pswd@alumni.gkqaasv.mongodb.net/?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true});
+mongoose.connect("mongodb+srv://sri:sri@alumni.gkqaasv.mongodb.net/?retryWrites=true&w=majority",{useNewUrlParser: true,useUnifiedTopology: true});
 mongoose.Promise = global.Promise;
 
 app.set("view engine","ejs");
